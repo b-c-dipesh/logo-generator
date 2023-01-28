@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Logo Generator</title>
+</head>
+
+<body>
+    <h1>Simple Logo Generator</h1>
+    <form id="logo-form">
+        <p>
+            <label for="brandName">Brand Name:</label>
+            <input type="text" id="brandName" name="brandName" placeholder="Your Brand Name">
+        </p>
+
+        <p>
+            <label for="brandColor">Brand Color</label>
+            <input type="color" name="brandColor" id="brandColor">
+        </p>
+
+        <p>
+            <label for="fontSize">Font Size</label>
+            <input type="range" name="fontSize" id="fontSize" min="16" max="40">
+        </p>
+
+        <p><button type="submit">Generate Logo</button></p>
+
+    </form>
+    <hr>
+    <section id="results"></section>
+    <script src="app.js"></script>
+</body>
+
+</html>
